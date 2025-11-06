@@ -368,7 +368,7 @@ def bio_keyboard(user_id):
     texts = TEXTS[lang]["buttons"]
     
     keyboard = InlineKeyboardBuilder()
-    keyboard.row(InlineKeyboardButton(text=texts["channel"], url="https://t.me/hatetearz"))
+    keyboard.row(InlineKeyboardButton(text=texts["channel"], url="https://t.me/frlssrnnr"))
     keyboard.row(InlineKeyboardButton(text=texts["back"], callback_data="back_to_main"))
     return keyboard.as_markup()
 
@@ -2115,5 +2115,6 @@ if __name__ == "__main__":
         traceback.print_exc()
 
     input("Нажмите Enter для выхода...")
+
 
 
