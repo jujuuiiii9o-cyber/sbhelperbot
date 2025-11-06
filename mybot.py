@@ -11,7 +11,7 @@ from aiogram.enums import ParseMode
 from aiogram.exceptions import TelegramBadRequest
 
 # Конфигурация
-BOT_TOKEN = "8555152089:AAF7xAphneNQUA3ieH-fKJhZbgGtY9xILKg"
+BOT_TOKEN = "8522917964:AAEKcvBfoNl4_s37UD3LvKNoHsZRwfGZwjQ"
 ADMIN_ID = 5395109783
 COOLDOWN_TIME = 300  # 5 минут в секундах
 
@@ -2115,6 +2115,7 @@ if __name__ == "__main__":
         traceback.print_exc()
 
     input("Нажмите Enter для выхода...")
+
 
 
 
